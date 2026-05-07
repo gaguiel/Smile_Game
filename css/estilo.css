@@ -1,37 +1,63 @@
-.invisivel{
-    display:none;
-  }
-  .visivel{
-    display:inline;
-  }
-  .inicial {
-    text-align: center;
-    font-size: 100px;
-    background-color: lightgrey;
-    width: 150px;
-    height: 200px;
-    border: 15px solid green;
-    padding: 10px;
-    margin: 20px;
-  }
-  .acertou {
-    text-align: center;
-    color: yellow;
-    background-color: LawnGreen;
-    width: 150px;
-    height: 200px;
-    border: 15px solid yellow;
-    padding: 10px;
-    margin: 20px;
-  }
-  .errou {
-    text-align: center;
-    font-size: 100px;
-    color: white;
-    background-color: red;
-    width: 150px;
-    height: 200px;
-    border: 15px solid black;
-    padding: 10px;
-    margin: 20px;
-  }
+.invisivel {
+  display: none;
+}
+.visivel {
+  display: inline;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 183, 255);;
+  width: 150px;
+  border: 15px solid rgb(17, 2, 82);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 50px;
+}
+.inicial {
+  text-align: center;
+  font-size: 100px;
+  background-color: lightgrey;
+  width: 150px;
+  height: 200px;
+  border: 15px solid green;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 50px;
+}
+.acertou {
+  text-align: center;
+  color: yellow;
+  background-color: rgb(19, 83, 17);
+  width: 150px;
+  height: 200px;
+  border: 15px solid yellow;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 50px;
+}
+.errou {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  background-color: red;
+  width: 150px;
+  height: 200px;
+  border: 15px solid black;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 50px;
+}
+body {
+  background-image: url("https://wallpapers-clan.com/wp-content/uploads/2025/01/pokemon-ash-ketchum-charizard-bond-desktop-wallpaper-preview.jpg"); /* Caminho da imagem */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  background-size: cover; /* Cobre toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Opcional: fixa a imagem ao rolar */
+}
+h1 {
+  text-align: center;
+  color: rgb(241, 239, 112);
+}
+p{
+  text-align: center;
+  color: rgb(83, 142, 182);
+}
